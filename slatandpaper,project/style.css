@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1 {
+  width: 100%;
+  height: 30px;
+  background-color: #f52aa8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav1 ul {
+  font-family: sans-serif;
+  display: flex;
+  gap: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 22px;
+  list-style: none;
+}
+.sale {
+  margin-left: 40px;
+}
+.fa-instagram {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.fa-facebook-f {
+  color: white;
+  font-size: 14px;
+}
+.fa-pinterest-p {
+  font-size: 14px;
+  color: white;
+  margin-right: 35px;
+}
+.fonts-nav1 {
+  display: flex;
+  margin-top: 8px;
+  gap: 10px;
+}
+.circle {
+  margin-right: 4px;
+  margin-top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #e1279a;
+}
+.nav1-2 {
+  display: flex;
+}
+select {
+  font-family: sans-serif;
+  font-size: 11px;
+  margin-right: 30px;
+  color: white;
+  background-color: #f52aa8;
+  border: none;
+}
+
+.nav2 {
+  width: 100%;
+  height: 195px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  font-size: 20px;
+  margin-left: 45px;
+  color: #303030;
+}
+.nav2-para1 {
+  display: flex;
+  gap: 32px;
+  margin-left: 160px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: rgb(61, 61, 61);
+}
+.nav2-img img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 130px;
+  margin-left: 52px;
+}
+.nav2-para2 {
+  display: flex;
+  gap: 32px;
+  margin-left: 52px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: rgb(61, 61, 61);
+}
+.fonts-nav2 {
+  display: flex;
+  gap: 30px;
+  margin-left: 54px;
+}
+.fa-user {
+  font-size: 20px;
+}
+.fa-bag-shopping {
+  font-size: 21px;
+}
+.nav3 {
+  width: 100%;
+  height: 40px;
+  background-color: #f52aa8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav3 P {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 18px;
+  font-family: sans-serif;
+}
+.nav3 a {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-left: 6px;
+}
+.back-img1 {
+  background-image: url(images/img2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.back-img2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/img3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+}
+
+.back-img2 p {
+  font-family: sans-serif;
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.back-img2 button {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 18px;
+  background-color: #f52aa8;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.line1-img img {
+  height: 220px;
+  width: 210px;
+}
+.line1-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: ;
+}
+.line1-img-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line1-img-1 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 21px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.p-2 {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(79, 80, 80);
+}
+.line2-img {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 90px;
+}
+.line2-img-1 {
+  background-image: url(images/img12.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.line2-img-2 {
+  background-image: url(images/img10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.line2-img-3 {
+  background-image: url(images/img9.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.line2-img-4 {
+  background-image: url(images/img11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.line2-img-4 button {
+  border: none;
+  width: 160px;
+  height: 30px;
+  background-color: #27bdbb;
+  font-family: Marion;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.line2-img-3 button {
+  border: none;
+  width: 110px;
+  height: 30px;
+  background-color: #27bdbb;
+  font-family: Marion;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.line2-img-2 button {
+  border: none;
+  width: 160px;
+  height: 30px;
+  background-color: #27bdbb;
+  font-family: Marion;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.line2-img-1 button {
+  border: none;
+  width: 160px;
+  height: 30px;
+  background-color: #27bdbb;
+  font-family: Marion;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+h1 {
+  font-family: Moontime;
+  font-size: 50px;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Moon Dance", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+.line3-img {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 50px;
+}
+.line3-img img {
+  width: 280px;
+  height: 270px;
+}
+.line3-img-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line3-img-1 p {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  font-style: normal;
+}
+.bottom-img img {
+  width: 100%;
+  height: 90px;
+  margin-top: 80px;
+}
+.last {
+  background-color: #f52aa8;
+  height: 500px;
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+}
+.list ul {
+  font-family: sans-serif;
+  color: white;
+  /* position: absolute; */
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 40px;
+  line-height: 35px;
+  margin-left: 40px;
+}
+.list2 {
+  display: flex;
+  flex-direction: column;
+}
+.list2 h5 {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 19px;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.list2 p {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  line-height: 19px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.list2 input {
+  background-color: #f52aa8;
+  color: rgb(3, 2, 2);
+  border: none;
+  margin-left: 200px;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+  outline: none;
+  padding-left: 8px;
+  height: 40px;
+  width: 300px;
+}
+.fonts {
+  margin-left: 200px;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.for-amount {
+  margin-top: 100px;
+  margin-left: 130px;
+  font-size: 20px;
+}
+.for-amount select {
+  font-size: 12px;
+}
+.end-img img {
+  width: 40px;
+  height: 20px;
+}
+.end-img {
+  display: flex;
+  gap: 8px;
+  margin-left: 290px;
+  margin-top: 20px;
+}
+.last-para {
+  text-align: center;
+  margin-left: 100px;
+  font-size: 10px;
+}
+.last-para p {
+  font-size: 11px;
+}
+.g_pay {
+  background-color: white;
+}
+.visa {
+  background-color: white;
+}
