@@ -1,0 +1,88 @@
+.form1 h1 {
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .navbar{
+
+width: 1155px;
+border-radius: 12px;
+padding-top: 9px;
+height: 50px;
+margin-right: 30px;
+margin-left: 30px;
+background-color: black;
+color: white;
+
+
+} */
+.margin {
+  background-color: blue;
+  color: white;
+}
+
+/* .navbar ul li{
+    display: inline;
+   list-style: none;
+   margin-inline: 375px;
+   font-family: Arial, Helvetica, sans-serif;
+   cursor: pointer;
+margin-left: 130px;} */
+
+.form1 {
+  width: 300px;
+  height: 380px;
+  margin-left: auto;
+  background-color: aqua;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 70px;
+  border-radius: 15px;
+}
+
+.link1 {
+  font-size: 25px;
+  /* margin-right: 160px; */
+  color: black;
+  margin-inline: 20px;
+  display: inline;
+  border: solid 3px black;
+
+  background-color: #ffa726;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+.link1 a {
+  text-decoration: none;
+  color: black;
+}
+.link1:hover {
+  background-color: rgb(214, 214, 228);
+  color: white;
+}
+.form2 {
+  margin-top: 30px;
+}
+
+.form2 input {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+.button button {
+  background-color: blue;
+  color: white;
+  width: 210px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button button:hover {
+  background-color: #ffb74d;
+  color: black;
+  border-top: 1px solid balck;
+  border-bottom: 3px solid black;
+}

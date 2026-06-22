@@ -1,0 +1,32 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.about {
+  background-color: #fffafc;
+  padding: 60px 30px;
+  text-align: center;
+  color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 15px auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about {
+  background: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-color: #fff9fb;
+}
